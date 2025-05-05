@@ -1,0 +1,47 @@
+# Projeto PythonRAD - DESENVOLVIMENTO RÁPIDO DE APLICAÇÕES EM PYTHON - ARA0095
+
+O projeto utilizará: 
+
+- Python 3.13+
+
+- Flask para interface web
+
+- Banco de dados (REST API com SQLite)
+
+## Dúvidas
+
+- Posso usar outro banco de dados como firebase, mySQL ou Oracle? (ou qualquer outro) `PODE`
+
+Entretanto não receberá suporte para outros bancos de dados diferentes daqueles sugeridos
+
+## Componentes avaliados:
+
+### Frontend utilizando Python + Flask
+
+- Login: TODA aplicação precisa de um controle de acesso com login utilizando e-mail e senha. Serão consideradas as verificações de consistência de entrada de dados, cadastro de novos usuários, recuperação de senha (opcional) e perfil do usuário (opcional: onde dados adicionais podem ser cadastrados, como foto, nome completo, telefone para contato/whatsapp, alteração de senha) 
+
+- Aplicação principal: Cada grupo tem sua solução que deverá utilizar o banco de dados (CRUD) para realizar seu propósito.
+
+### Banco de dados - Sugestão de controle de login:
+
+`TABELA USUÁRIOS`
+
+
+|    Campos   | Tipo de dado no banco de dados
+|-------------|---
+| ID          | numero, chave primaria, autoincremento
+| tipoUsuario | booleano user 0 / 1 admin
+| email       | varchar(50)
+| senha       | varchar(30)
+| mudaSenha   | booleano   nao mudar 0 / 1 mudar, usuario fará cadastro de nova senha no próximo login
+| liberacao   | booleano   inativo 0 / 1 ativo
+
+`TABELA PERFIL`
+
+| Campos  | Tipo de dado no banco de dados
+|---------|---
+| ID      | numero, chave primaria, autoincremento
+| userID  | numero, chave estrangeira
+| nome    | varchar(50) nome completo
+| contato | varchar(11) Area 2 digitos, telefone 9 digitos
+| foto    | varchar() caminho para imagem salva no dispositivo
