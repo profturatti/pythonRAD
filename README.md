@@ -3,8 +3,8 @@ DESENVOLVIMENTO RÁPIDO DE APLICAÇÕES EM PYTHON
 
 ## Disciplina regular (SM1/SM2/AV/AVS)
 
-[Roteiro mínimo]() | 
-[Exemplos]() |
+[Roteiro do projeto](https://github.com/profturatti/pythonRAD/blob/main/roteiro_projeto.txt) | 
+[Exemplos](https://github.com/profturatti/pythonRAD/tree/main/exemplos) |
 [Grupos]()
 
 |  DATA  | Descrição
