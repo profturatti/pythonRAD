@@ -21,10 +21,10 @@ DESENVOLVIMENTO RÁPIDO DE APLICAÇÕES EM PYTHON
 | 28.abr | SAVA TEMA4; Python com Banco de dados
 | 05.mai | Simulado 1 - Presencial
 | 12.mai | Semana nacional dos cursos
-| 19.mai |
+| 19.mai | SAVA TEMA 5 e 6; Solução de dúvidas
 | 26.mai |
 | 02.jun |
-| 09.jun |
+| 09.jun | Apresentação do projeto com Flask + Entrega (GIT)
 | 16.jun | Simulado 2 - Presencial
 | 23.jun | AV disciplinas Presenciais
 | 30.jun | AVS disciplinas Presenciais
