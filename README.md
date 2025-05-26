@@ -22,8 +22,8 @@ DESENVOLVIMENTO RÁPIDO DE APLICAÇÕES EM PYTHON
 | 05.mai | Simulado 1 - Presencial
 | 12.mai | Semana nacional dos cursos
 | 19.mai | SAVA TEMA 5 e 6; Solução de dúvidas
-| 26.mai |
-| 02.jun |
+| 26.mai | SAVA TEMA 6; Solução de dúvidas
+| 02.jun | SAVA TEMA 7; Solução de dúvidas
 | 09.jun | Apresentação do projeto com Flask + Entrega (GIT)
 | 16.jun | Simulado 2 - Presencial
 | 23.jun | AV disciplinas Presenciais
